@@ -1,14 +1,9 @@
 {
-  "name": "astro-api",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "name": "astro-moch-api",
+  "description": "Moch data endpoints to use on Astro UXDS demo apps.",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "netlify dev"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "dependencies": {
     "express": "^4.18.1",
     "serverless-http": "^3.0.1"
